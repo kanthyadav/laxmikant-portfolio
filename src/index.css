@@ -2,51 +2,60 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
+}
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-font-family: Inter, "Segoe UI", sans-serif;
-background:
-radial-gradient(circle at top left, rgba(56, 189, 248, 0.15), transparent 35%),
-radial-gradient(circle at top right, rgba(139, 92, 246, 0.15), transparent 35%),
-linear-gradient(135deg, #020617, #0f172a, #111827);
-color: #f8fafc;
-min-height: 100vh;
-overflow-x: hidden;
+  font-family: Inter, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.15), transparent 35%),
+    radial-gradient(circle at top right, rgba(139, 92, 246, 0.15), transparent 35%),
+    linear-gradient(135deg, #020617, #0f172a, #111827);
+
+  color: #f8fafc;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-text-decoration: none;
-color: #38bdf8;
-transition: 0.3s ease;
+  text-decoration: none;
+  color: #38bdf8;
+  transition: all 0.3s ease;
 }
 
 a:hover {
-color: #7dd3fc;
+  color: #7dd3fc;
 }
 
 img {
-max-width: 100%;
-display: block;
+  max-width: 100%;
+  display: block;
 }
 
 button {
-font-family: inherit;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar {
-width: 8px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-background: #0f172a;
+  background: #0f172a;
 }
 
 ::-webkit-scrollbar-thumb {
-background: #38bdf8;
-border-radius: 20px;
+  background: #38bdf8;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7dd3fc;
 }

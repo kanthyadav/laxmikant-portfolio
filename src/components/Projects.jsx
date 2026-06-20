@@ -2,7 +2,7 @@ function Projects() {
 return ( <section id="projects" className="section"> <h2 className="section-title">Projects</h2>
 
   <div className="project-card">
-    <h3>🍔 Food Order Platform</h3>
+    <h3> Food Order Platform</h3>
 
     <p className="highlight-text">
       React.js • Node.js • Express.js • MongoDB • Generative AI
@@ -44,7 +44,7 @@ return ( <section id="projects" className="section"> <h2 className="section-titl
   </div>
 
   <div className="project-card">
-    <h3>💰 Expense Tracker Pro</h3>
+    <h3> Expense Tracker Pro</h3>
 
     <p className="highlight-text">
       React.js • Node.js • Express.js • MongoDB Atlas
@@ -86,7 +86,7 @@ return ( <section id="projects" className="section"> <h2 className="section-titl
   </div>
 
   <div className="project-card">
-    <h3>🧠 MindForge AI</h3>
+    <h3> MindForge AI</h3>
 
     <p className="highlight-text">
       React.js • Node.js • MongoDB • AssemblyAI • Generative AI
