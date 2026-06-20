@@ -27,7 +27,7 @@ return ( <section className="hero"> <img
       </button>
     </a>
 
-    <a href="/resume.pdf" download>
+    <a href="/Laxmikant_resume.pdf" download>
       <button className="secondary-btn">
         Download Resume
       </button>
